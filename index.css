@@ -1,5 +1,34 @@
+body{
+    background-image: url('assets/walpp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .box{
     width: 320px;
     padding: 10px;
-    border: 5px solid gray;
+}
+
+.lgf{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.form-control {
+    border: 0;
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.name{
+    padding-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
 }

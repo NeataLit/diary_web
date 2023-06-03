@@ -17,21 +17,23 @@
   </head>
 
   <body>
+    <h2 class="name"> Layanan Pembelajaran Mahasiswa </h2>
     <div class="container box">
-        <form class="row g-3">
-            <div class="col-12">
-                <input type="text" class="form-control" id="inputNama" placeholder="Nama Lengkap">
-            </div>
-            <div class="col-12">
-                <input type="text" class="form-control" id="inputNama" placeholder="Email">
-            </div>
-            <div class="col-12">
-                <input type="text" class="form-control" id="inputNama" placeholder="Password">
-            </div>     
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>               
+      <div class="row align-items-center">
+        <form class="row g-3 lgf">
+          <h4 class="mb-4" style="text-align: center;"> Selamat Datang! </h4>
+          <div class="col-12 d-grid gap-2">
+            <input type="email" id="IsiEmail" name="Email" placeholder="name@example.com">
+          </div>
+          <div class="col-12 d-grid gap-2">
+            <input type="password" id="IsiPass" name="Pass" placeholder="Password">
+            <a class="mt-1" style="font-size: 10px;"> Forgot Password?</a>
+          </div>
+          <div class="col-12 d-grid gap-2 mb-3">
+          <button type="submit" class="btn btn-primary"> Masuk </button>
+          </div> 
         </form>
+      </div>
     </div>
   </body>
 </html>
